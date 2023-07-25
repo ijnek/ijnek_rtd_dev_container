@@ -1,0 +1,8 @@
+{
+  "name": "ijnek_rtd_dev_container",
+  "image": "ghcr.io/ijnek/ijnek_rtd_image:main",
+  "workspaceFolder": "/home/vscode/docs",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
+  ]
+}
